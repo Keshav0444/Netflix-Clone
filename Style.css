@@ -1,0 +1,246 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.main {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/9d3533b2-0e2b-40b2-95e0-ecd7979cc88b/a3873901-5b7c-46eb-b9fa-12fea5197bd3/IN-en-20240311-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-position: center center;
+    background-size:  max(1000px,100vw);
+    height: 70vh;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.main .box{
+    height: 70vh;
+    width: 100%;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav{
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+nav img{
+    position: relative;
+    z-index: 10;
+    width: 140px;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.hero{
+    position: relative;
+    height: calc(100% - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    gap: 20px;
+    padding: 0 30px;
+}
+
+.hero >:nth-child(1){
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero >:nth-child(3){
+    font-weight: 400;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.seprate{
+    height: 7px;
+    background-color: rgb(46, 46, 46)
+}
+
+.btn{
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.034);
+    border: 1px solid rgba(255, 255, 255, 0.315);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.btn-red-sm{
+    background-color: red;
+    color: white;
+}
+
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.main input{
+    padding: 7px 101px 8px 14px;
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: rgba(23,23,23,0.7);
+    border: 1px solid rgba(246,238,238,0.5);
+    color: white;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.first .secimg{
+    position: relative;
+    z-index: -1;
+}
+
+.first .secimg img{
+    /* height: 50vh; */
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.first .secimg video{
+    position: absolute;
+    /* height: 28vh; */
+    /* width: 26vw; */
+    top: 90px;
+    right: 0;
+}
+
+.third{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.third .secimg{
+    position: relative;
+    z-index: -1;
+}
+
+.third .secimg img{
+    /* height: 50vh; */
+    /* width: 30vw; */
+    position: relative;
+    right: 0;
+    z-index: 10;
+}
+
+.third .secimg video{
+    position: absolute;
+    height: 22vh;
+    width: 34vw;
+    top: 40px;
+    right: 0;
+}
+
+section.first>div{
+    display: flex;
+    flex-direction: column;
+}
+.first>div :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.first>div :nth-child(2){
+    font-size: 24px;
+}
+
+section.third>div{
+    display: flex;
+    flex-direction: column;
+}
+.third>div :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.third>div :nth-child(2){
+    font-size: 24px;
+}
+
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+    padding: 10px;
+}
+.faq{
+    background-color: black;
+    color: white;
+    padding: 34px;
+}
+.faqbox{
+    display: flex;
+    background-color: rgb(45,45,45);
+    justify-content: space-between;
+    max-width: 60vw;
+    margin: 10px auto;
+    padding: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.faqbox:hover{
+    transition: all;
+    background-color: rgb(83, 83, 83);
+}
+
+.faqbox svg{
+    filter: invert(1);
+}
